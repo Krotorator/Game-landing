@@ -19,6 +19,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 //= _slick.js
 //= _scripts.js
 document.addEventListener("DOMContentLoaded", function () {
+  var bLazy = new Blazy({});
   var langChosen = document.querySelector("#langChosen");
   var langDropdown = document.querySelector(".controls__dropdown");
   var langItems = document.querySelectorAll(".controls__lang_passive");
