@@ -21,7 +21,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 document.addEventListener("DOMContentLoaded", function () {
   var langChosen = document.querySelector("#langChosen");
   var langDropdown = document.querySelector(".controls__dropdown");
-  var langItems = document.querySelectorAll("#controlsLang");
+  var langItems = document.querySelectorAll(".controls__lang_passive");
   langChosen.addEventListener("click", function (e) {
     e.preventDefault();
     langDropdown.classList.toggle("controls__dropdown_active");
